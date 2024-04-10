@@ -45,22 +45,3 @@ document.getElementById('nextButton').addEventListener('click', () => {
 });
 /* Nose que monda hizo pero algo hizo */
 getCharacters(currentPage, showCharacters);
-
-
-
-
-
-// const updatePage = (pageNumber) => {
-//     currentPage = pageNumber;
-//     getCharacters(currentPage, showCharacters);
-// };
-
-// document.getElementById('prevButon').addEventListener('click', ()=> {
-//     if (currentPage > 1) {
-//         updatePage(currentPage -1);
-//     }
-// });
-
-// document.getElementById('nextButon').addEventListener('click', ()=> {
-//     updatePage(currentPage +1);
-// });
